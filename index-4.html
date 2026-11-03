@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Undangan Pernikahan Jojo & Sisi</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f4f6;--card:#ffffff;--ink:#4a4148;--soft:#8a7f86;--line:#e6d3cf;
+--rg:linear-gradient(135deg,#B87333 0%,#E0A96D 30%,#F4C2C2 55%,#E0A96D 78%,#B87333 100%);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1a1d;--card:#2a2529;--ink:#f1e6e4;--soft:#b9a9ab;--line:#4a3e41}}
+:root[data-theme="dark"]{--bg:#1d1a1d;--card:#2a2529;--ink:#f1e6e4;--soft:#b9a9ab;--line:#4a3e41}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;font-weight:300}
+.serif{font-family:'Cormorant Garamond',Georgia,serif}
+.gold-text{background:var(--rg);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 6s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:1.25rem;box-shadow:0 10px 30px -15px rgba(184,115,51,.35)}
+.gborder{position:relative}
+.gborder::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1.5px;background:var(--rg);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.btn{position:relative;overflow:hidden;background:var(--rg);background-size:200% auto;color:#fff;font-weight:500;padding:.75rem 1.75rem;border-radius:999px;box-shadow:0 8px 20px -8px #B87333;transition:.4s;display:inline-flex;align-items:center;gap:.5rem;text-shadow:0 1px 2px rgba(120,60,20,.4)}
+.btn:hover{background-position:right center;transform:translateY(-2px)}
+.btn::after{content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.7),transparent);transform:skewX(-20deg);transition:.7s}
+.btn:hover::after{left:140%}
+.ic{width:1.1em;height:1.1em;fill:currentColor;flex:none}
+.reveal{opacity:0;transform:translateY(24px);transition:1s ease}
+.reveal.show{opacity:1;transform:none}
+#cover{background:radial-gradient(circle at 50% 30%,#fbe9e6,#f4c2c2 45%,#c98f6a 100%);transition:transform 1.2s cubic-bezier(.7,0,.2,1)}
+#cover.out{transform:translateY(-100%)}
+.ring{position:absolute;border-radius:50%;border:1.5px solid rgba(255,255,255,.7);animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.08);opacity:.5}}
+.avatar{width:9rem;height:9rem;border-radius:50%;background:var(--rg);display:flex;align-items:center;justify-content:center;color:#fff;font-size:3rem;box-shadow:0 0 0 5px var(--card),0 0 0 7px #E0A96D}
+.tile{border-radius:1rem;display:flex;align-items:flex-end;padding:.75rem;color:#fff;font-size:.8rem;break-inside:avoid;margin-bottom:.75rem;transition:.5s;text-shadow:0 1px 3px rgba(0,0,0,.35)}
+.tile:hover{transform:scale(1.03)}
+input,textarea,select{background:var(--bg);border:1px solid var(--line);border-radius:.75rem;padding:.7rem .9rem;width:100%;color:var(--ink);outline:none}
+input:focus,textarea:focus,select:focus{border-color:#E0A96D;box-shadow:0 0 0 3px rgba(224,169,109,.25)}
+#music{position:fixed;right:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:40;width:3rem;height:3rem;border-radius:50%;display:none;align-items:center;justify-content:center;background:var(--rg);color:#fff;box-shadow:0 6px 18px -4px #B87333}
+#music.spin svg{animation:rot 4s linear infinite}
+@keyframes rot{to{transform:rotate(360deg)}}
+.wrap{max-width:42rem;margin:auto;padding:4.5rem 1.25rem}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+<symbol id="i-ig" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.2 5.8a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 14.5 9 2.5 2.5 0 0 1 12 11.5z"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><path d="M8 2h10a2 2 0 0 1 2 2v12h-2V4H8zM4 6h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21s-8-5.5-8-11.2A4.800 4.800 0 0 1 12 7a4.800 4.800 0 0 1 8 2.800C20 15.500 12 21 12 21z"/></symbol>
+<symbol id="i-note" viewBox="0 0 24 24"><path d="M9 3v11.600A3.500 3.500 0 1 0 11 18V8h6V3z"/></symbol>
+<symbol id="i-env" viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.500 2L12 12.500 19.500 7z"/></symbol>
+</svg>
+
+<!-- COVER -->
+<section id="cover" class="fixed inset-0 z-50 flex flex-col items-center justify-center text-center px-6" style="padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)">
+  <div class="ring" style="width:22rem;height:22rem"></div>
+  <div class="ring" style="width:30rem;height:30rem;animation-delay:1.5s"></div>
+  <div class="relative text-white" style="text-shadow:0 2px 10px rgba(120,60,20,.35)">
+    <p class="tracking-[.4em] text-xs uppercase mb-6">The Wedding of</p>
+    <h1 class="serif text-6xl sm:text-7xl font-bold leading-tight">Jojo<br><span class="text-4xl italic font-medium">&</span><br>Sisi</h1>
+    <p class="mt-6 tracking-widest text-sm">15 · 11 · 2026</p>
+    <p class="mt-10 text-sm opacity-90">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+    <p id="guest" class="serif text-2xl mt-1">Tamu Undangan</p>
+    <button id="openBtn" class="btn mt-8 !bg-white !text-[#B87333]" style="background:#fff;text-shadow:none"><svg class="ic"><use href="#i-env"/></svg>Buka Undangan</button>
+  </div>
+</section>
+
+<!-- HERO -->
+<header class="min-h-screen flex flex-col items-center justify-center text-center px-6" style="background:radial-gradient(circle at 50% 0%,rgba(244,194,194,.45),transparent 60%)">
+  <p class="tracking-[.4em] text-xs uppercase text-[color:var(--soft)] reveal">Kami Akan Menikah</p>
+  <h2 class="serif gold-text text-6xl sm:text-8xl font-bold mt-4 reveal">Jojo & Sisi</h2>
+  <p class="mt-4 serif italic text-xl reveal">Minggu, 15 November 2026</p>
+  <p class="max-w-md mt-8 text-sm leading-relaxed text-[color:var(--soft)] reveal">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup agar kamu merasa tenteram kepadanya.”<br><span class="text-xs">— QS. Ar-Rum: 21</span></p>
+</header>
+
+<!-- MEMPELAI -->
+<section id="mempelai" class="wrap text-center">
+  <h3 class="serif gold-text text-4xl font-bold mb-2 reveal">Mempelai</h3>
+  <p class="text-sm text-[color:var(--soft)] mb-12 reveal">Dengan memohon rahmat Tuhan Yang Maha Esa</p>
+  <div class="grid gap-10 sm:grid-cols-2">
+    <div class="card gborder p-8 reveal">
+      <div class="avatar serif mx-auto" style="position:relative;overflow:hidden">J<img src="images/jojo.jpg" alt="Jojo" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div>
+      <h4 class="serif text-3xl mt-6 font-bold">Jojo</h4>
+      <p class="text-sm mt-2 text-[color:var(--soft)]">Putra dari<br>Bapak Hartono & Ibu Ratna</p>
+      <a href="https://instagram.com/" target="_blank" rel="noopener" class="btn mt-5 !py-2 text-sm"><svg class="ic"><use href="#i-ig"/></svg>@jojo</a>
+    </div>
+    <div class="card gborder p-8 reveal">
+      <div class="avatar serif mx-auto" style="position:relative;overflow:hidden">S<img src="images/sisi.jpg" alt="Sisi" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div>
+      <h4 class="serif text-3xl mt-6 font-bold">Sisi</h4>
+      <p class="text-sm mt-2 text-[color:var(--soft)]">Putri dari<br>Bapak Wijaya & Ibu Lestari</p>
+      <a href="https://instagram.com/" target="_blank" rel="noopener" class="btn mt-5 !py-2 text-sm"><svg class="ic"><use href="#i-ig"/></svg>@sisi</a>
+    </div>
+  </div>
+</section>
+
+<!-- LOVE JOURNEY -->
+<section class="wrap !pb-8">
+<style>
+.tl{position:relative;padding-left:2.75rem}
+.tl::before{content:"";position:absolute;left:.7rem;top:.5rem;bottom:.5rem;width:2px;background:var(--rg)}
+.tl-item{position:relative;margin-bottom:1.75rem}
+.tl-dot{position:absolute;left:-2.4rem;top:1.6rem;width:1rem;height:1rem;border-radius:50%;background:var(--rg);box-shadow:0 0 0 4px var(--bg)}
+.tl-dot.last{background:#d6607a;animation:pulse 2s ease-in-out infinite}
+.tag{display:inline-block;font-size:.7rem;letter-spacing:.15em;padding:.25rem .75rem;border-radius:.5rem;background:rgba(224,169,109,.18);color:#B87333;font-weight:500}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag{color:#E0A96D}}
+</style>
+<p class="text-center tracking-[.4em] text-xs uppercase text-[color:var(--soft)] reveal">Episode & Chapters</p>
+<h3 class="serif gold-text text-4xl font-bold text-center mt-2 mb-10 reveal">Our Love Journey</h3>
+<div class="tl">
+  <div class="tl-item card p-6 reveal"><span class="tl-dot"></span>
+    <span class="tag">SCENE 01 · TAHUN 2021</span>
+    <h4 class="serif text-2xl font-bold mt-3">Pertemuan Pertama</h4>
+    <p class="text-sm mt-2 leading-relaxed text-[color:var(--soft)]">Semua bermula di sebuah kedai kopi kecil saat hujan deras. Jojo meminjamkan payung kepada Sisi yang tak membawa apa-apa. Siapa sangka, sebuah payung menjadi awal cerita panjang kami.</p></div>
+  <div class="tl-item card p-6 reveal"><span class="tl-dot"></span>
+    <span class="tag">SCENE 02 · TAHUN 2023</span>
+    <h4 class="serif text-2xl font-bold mt-3">Tumbuhnya Rasa</h4>
+    <p class="text-sm mt-2 leading-relaxed text-[color:var(--soft)]">Obrolan singkat berubah jadi kebiasaan. Dari berbagi playlist, berburu kuliner, hingga saling menguatkan di masa-masa sulit, kami sadar bahwa pulang terbaik adalah bersama satu sama lain.</p></div>
+  <div class="tl-item card p-6 reveal"><span class="tl-dot"></span>
+    <span class="tag">SCENE 03 · TAHUN 2025</span>
+    <h4 class="serif text-2xl font-bold mt-3">Lamaran</h4>
+    <p class="text-sm mt-2 leading-relaxed text-[color:var(--soft)]">Di tempat yang sama tempat kami pertama bertemu, Jojo menyiapkan kejutan sederhana dan sebuah cincin. Dengan senyum dan air mata bahagia, Sisi berkata “iya”.</p></div>
+  <div class="tl-item card gborder p-6 reveal"><span class="tl-dot last"></span>
+    <span class="tag" style="background:rgba(214,96,122,.15);color:#c2475f">FINAL CHAPTER · TAHUN 2026</span>
+    <h4 class="serif text-2xl font-bold mt-3">Menuju Pelaminan</h4>
+    <p class="text-sm mt-2 leading-relaxed text-[color:var(--soft)]">Dengan ridho Allah SWT dan restu kedua orang tua, kami memantapkan hati untuk mengikat janji suci dan melangkah bersama menuju babak baru kehidupan.</p></div>
+</div>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="py-16 text-center" style="background:var(--rg)">
+  <div class="max-w-xl mx-auto px-5 text-white" style="text-shadow:0 1px 6px rgba(120,60,20,.4)">
+    <h3 class="serif text-3xl mb-6">Menuju Hari Bahagia</h3>
+    <div class="grid grid-cols-4 gap-3" id="cd">
+      <div class="rounded-2xl bg-white/25 backdrop-blur py-4"><div class="serif text-4xl font-bold" id="d">0</div><div class="text-xs tracking-widest">HARI</div></div>
+      <div class="rounded-2xl bg-white/25 backdrop-blur py-4"><div class="serif text-4xl font-bold" id="h">0</div><div class="text-xs tracking-widest">JAM</div></div>
+      <div class="rounded-2xl bg-white/25 backdrop-blur py-4"><div class="serif text-4xl font-bold" id="m">0</div><div class="text-xs tracking-widest">MENIT</div></div>
+      <div class="rounded-2xl bg-white/25 backdrop-blur py-4"><div class="serif text-4xl font-bold" id="s">0</div><div class="text-xs tracking-widest">DETIK</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ACARA -->
+<section class="wrap text-center">
+  <h3 class="serif gold-text text-4xl font-bold mb-12 reveal">Detail Acara</h3>
+  <div class="grid gap-8 sm:grid-cols-2">
+    <div class="card gborder p-8 reveal">
+      <h4 class="serif text-3xl font-bold">Akad Nikah</h4>
+      <p class="mt-4 text-sm">Minggu, 15 November 2026</p>
+      <p class="text-sm">08.00 – 10.00 WIB</p>
+      <p class="mt-3 text-sm text-[color:var(--soft)]">Masjid Al-Ikhlas<br>Jl. Melati No. 12, Jakarta</p>
+      <a class="btn mt-6 text-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Masjid+Al-Ikhlas+Jakarta"><svg class="ic"><use href="#i-pin"/></svg>Petunjuk Peta</a>
+    </div>
+    <div class="card gborder p-8 reveal">
+      <h4 class="serif text-3xl font-bold">Resepsi</h4>
+      <p class="mt-4 text-sm">Minggu, 15 November 2026</p>
+      <p class="text-sm">11.00 – 14.00 WIB</p>
+      <p class="mt-3 text-sm text-[color:var(--soft)]">Rose Garden Ballroom<br>Jl. Kenanga No. 8, Jakarta</p>
+      <a class="btn mt-6 text-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rose+Garden+Ballroom+Jakarta"><svg class="ic"><use href="#i-pin"/></svg>Petunjuk Peta</a>
+    </div>
+  </div>
+</section>
+
+<!-- GALERI -->
+<section class="wrap !pt-0 text-center">
+  <h3 class="serif gold-text text-4xl font-bold mb-2 reveal">Galeri Kami</h3>
+  <p class="text-sm text-[color:var(--soft)] mb-8 reveal">Momen-momen penuh cinta</p>
+  <div class="columns-2 gap-3 text-left reveal">
+    <div class="tile" style="height:14rem;background:url(images/galeri-1.jpg) center/cover,linear-gradient(160deg,#F4C2C2,#E0A96D)">Pertemuan Pertama</div>
+    <div class="tile" style="height:9rem;background:url(images/galeri-2.jpg) center/cover,linear-gradient(160deg,#E0A96D,#B87333)">Senja Berdua</div>
+    <div class="tile" style="height:11rem;background:url(images/galeri-3.jpg) center/cover,linear-gradient(160deg,#fbe0dc,#F4C2C2)">Lamaran</div>
+    <div class="tile" style="height:12rem;background:url(images/galeri-4.jpg) center/cover,linear-gradient(160deg,#B87333,#F4C2C2)">Taman Mawar</div>
+    <div class="tile" style="height:9rem;background:url(images/galeri-5.jpg) center/cover,linear-gradient(160deg,#F4C2C2,#B87333)">Cincin Kami</div>
+    <div class="tile" style="height:13rem;background:url(images/galeri-6.jpg) center/cover,linear-gradient(160deg,#E0A96D,#fbe0dc)">Selamanya</div>
+  </div>
+  <p class="text-xs mt-2 text-[color:var(--soft)]">Foto prewedding diambil dari folder images/ saat di-hosting.</p>
+</section>
+
+<!-- AMPLOP -->
+<section class="wrap !pt-0 text-center">
+  <h3 class="serif gold-text text-4xl font-bold mb-2 reveal">Amplop Digital</h3>
+  <p class="text-sm text-[color:var(--soft)] mb-8 max-w-md mx-auto reveal">Doa restu Anda adalah hadiah terindah. Namun bila ingin memberi tanda kasih, dapat melalui:</p>
+  <div class="grid gap-6 sm:grid-cols-2">
+    <div class="card gborder p-6 reveal">
+      <p class="serif text-2xl font-bold">BCA</p>
+      <p class="mt-3 tracking-widest text-lg" id="rek1">1234 5678 90</p>
+      <p class="text-sm text-[color:var(--soft)]">a.n. Jojo Hartono</p>
+      <button class="btn mt-4 text-sm" onclick="salin('rek1',this)"><svg class="ic"><use href="#i-copy"/></svg>Salin Nomor Rekening</button>
+    </div>
+    <div class="card gborder p-6 reveal">
+      <p class="serif text-2xl font-bold">Mandiri</p>
+      <p class="mt-3 tracking-widest text-lg" id="rek2">0987 6543 21</p>
+      <p class="text-sm text-[color:var(--soft)]">a.n. Sisi Wijaya</p>
+      <button class="btn mt-4 text-sm" onclick="salin('rek2',this)"><svg class="ic"><use href="#i-copy"/></svg>Salin Nomor Rekening</button>
+    </div>
+  </div>
+  <div class="card gborder p-6 mt-6 reveal">
+    <p class="serif text-2xl font-bold mb-3">QRIS</p>
+    <svg viewBox="0 0 100 100" class="mx-auto w-40 h-40 rounded-xl bg-white p-2">
+      <defs><linearGradient id="q" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B87333"/><stop offset="1" stop-color="#E0A96D"/></linearGradient></defs>
+      <g fill="url(#q)"><rect x="4" y="4" width="26" height="26" rx="3"/><rect x="70" y="4" width="26" height="26" rx="3"/><rect x="4" y="70" width="26" height="26" rx="3"/>
+      <rect x="38" y="6" width="8" height="8"/><rect x="52" y="14" width="8" height="8"/><rect x="38" y="38" width="10" height="10"/><rect x="56" y="42" width="8" height="14"/><rect x="72" y="40" width="12" height="8"/><rect x="40" y="60" width="8" height="12"/><rect x="58" y="66" width="12" height="8"/><rect x="76" y="62" width="16" height="10"/><rect x="40" y="82" width="14" height="10"/><rect x="66" y="82" width="8" height="12"/><rect x="82" y="80" width="10" height="12"/></g>
+      <g fill="#fff"><rect x="10" y="10" width="14" height="14" rx="2"/><rect x="76" y="10" width="14" height="14" rx="2"/><rect x="10" y="76" width="14" height="14" rx="2"/></g>
+      <g fill="url(#q)"><rect x="14" y="14" width="6" height="6"/><rect x="80" y="14" width="6" height="6"/><rect x="14" y="80" width="6" height="6"/></g>
+    </svg>
+    <p class="text-xs mt-2 text-[color:var(--soft)]">Ganti dengan kode QRIS asli Anda.</p>
+  </div>
+</section>
+
+<!-- RSVP -->
+<section class="wrap !pt-0">
+  <h3 class="serif gold-text text-4xl font-bold mb-8 text-center reveal">RSVP & Ucapan</h3>
+  <form id="f" class="card gborder p-6 space-y-4 reveal" onsubmit="return kirim(event)">
+    <input id="nama" placeholder="Nama Anda" required maxlength="40">
+    <select id="hadir"><option>Hadir</option><option>Tidak Hadir</option><option>Masih Ragu</option></select>
+    <textarea id="doa" rows="3" placeholder="Tulis ucapan & doa…" required maxlength="300"></textarea>
+    <button class="btn w-full justify-center" type="submit"><svg class="ic"><use href="#i-heart"/></svg>Kirim Ucapan</button>
+  </form>
+  <div id="list" class="mt-8 space-y-4"></div>
+</section>
+
+<footer class="text-center pb-24 px-6">
+  <p class="serif italic text-xl">Terima kasih atas doa & restu Anda</p>
+  <p class="serif gold-text text-3xl font-bold mt-3">Jojo & Sisi</p>
+</footer>
+
+<button id="music" aria-label="Putar/Jeda musik" onclick="toggleMusic()"><svg class="ic"><use href="#i-note"/></svg></button>
+
+<script>
+// Nama tamu dari ?to=Nama
+try{const t=new URLSearchParams(location.search).get('to');if(t)document.getElementById('guest').textContent=t}catch(e){}
+
+// Musik latar (sintesis WebAudio, tanpa file eksternal)
+let ac,playing=false,timer,step=0,gain;
+const notes=[523.25,659.25,783.99,659.25,587.33,698.46,880,698.46,493.88,587.33,783.99,587.33,523.25,659.25,783.99,1046.5];
+function tick(){
+  const o=ac.createOscillator(),g=ac.createGain();
+  o.type='sine';o.frequency.value=notes[step%notes.length]/ (step%16<8?2:1);
+  g.gain.setValueAtTime(0,ac.currentTime);g.gain.linearRampToValueAtTime(.16,ac.currentTime+.03);g.gain.exponentialRampToValueAtTime(.001,ac.currentTime+1.4);
+  o.connect(g);g.connect(gain);o.start();o.stop(ac.currentTime+1.5);step++;
+}
+function startMusic(){
+  try{
+    ac=ac||new (window.AudioContext||window.webkitAudioContext)();
+    if(!gain){gain=ac.createGain();gain.gain.value=.8;gain.connect(ac.destination)}
+    ac.resume();tick();timer=setInterval(tick,480);playing=true;
+    document.getElementById('music').classList.add('spin');
+  }catch(e){}
+}
+function stopMusic(){clearInterval(timer);playing=false;document.getElementById('music').classList.remove('spin')}
+function toggleMusic(){playing?stopMusic():startMusic()}
+
+// Buka undangan
+document.body.style.overflow='hidden';
+document.getElementById('openBtn').onclick=()=>{
+  document.getElementById('cover').classList.add('out');
+  document.body.style.overflow='';
+  document.getElementById('music').style.display='flex';
+  startMusic();
+  setTimeout(()=>{window.scrollTo({top:0});document.querySelectorAll('header .reveal').forEach(e=>e.classList.add('show'))},300);
+  setTimeout(()=>document.getElementById('cover').style.display='none',1300);
+};
+
+// Countdown (waktu lokal perangkat) — 15 Nov 2026, 08.00
+const target=new Date(2026,10,15,8,0,0).getTime();
+function upd(){
+  let diff=Math.max(0,target-Date.now());
+  const v={d:Math.floor(diff/864e5),h:Math.floor(diff%864e5/36e5),m:Math.floor(diff%36e5/6e4),s:Math.floor(diff%6e4/1e3)};
+  for(const k in v)document.getElementById(k).textContent=String(v[k]).padStart(2,'0');
+}
+upd();setInterval(upd,1000);
+
+// Salin rekening
+function salin(id,btn){
+  const txt=document.getElementById(id).textContent.replace(/\s/g,'');
+  const done=()=>{const old=btn.innerHTML;btn.innerHTML='Tersalin ✓';setTimeout(()=>btn.innerHTML=old,1800)};
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done).catch(fb)}else fb();
+  function fb(){const t=document.createElement('textarea');t.value=txt;document.body.appendChild(t);t.select();try{document.execCommand('copy')}catch(e){}t.remove();done()}
+}
+
+// RSVP & ucapan (simulasi)
+const msgs=[{n:'Keluarga Santoso',h:'Hadir',d:'Selamat menempuh hidup baru, semoga sakinah mawaddah warahmah.'},{n:'Rina & Dimas',h:'Hadir',d:'Bahagia selalu untuk Jojo & Sisi! Sampai jumpa di hari H.'}];
+function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function render(){
+  document.getElementById('list').innerHTML=msgs.map(m=>`<div class="card p-5"><div class="flex justify-between items-center"><b class="serif text-xl">${esc(m.n)}</b><span class="text-xs px-3 py-1 rounded-full" style="background:var(--bg);border:1px solid var(--line)">${m.h}</span></div><p class="text-sm mt-2 text-[color:var(--soft)]">${esc(m.d)}</p></div>`).join('');
+}
+function kirim(e){
+  e.preventDefault();
+  msgs.unshift({n:document.getElementById('nama').value.trim(),h:document.getElementById('hadir').value,d:document.getElementById('doa').value.trim()});
+  render();e.target.reset();return false;
+}
+render();
+
+// Reveal on scroll
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('show');io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+</script>
+</body>
+</html>
